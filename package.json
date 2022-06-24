@@ -1,0 +1,33 @@
+{
+	"name": "tiny-session",
+	"version": "0.0.1",
+	"author": {
+		"email": "marek@dayone.pl",
+		"name": "Marek Piechut",
+		"url": "https://marekpiechut.github.io"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">= 18"
+	},
+	"description": "A tiny session library ideal for Cloudflare Workers",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"devDependencies": {
+		"@cloudflare/workers-types": "^3.13.0",
+		"@types/jest": "^28.1.2",
+		"@typescript-eslint/eslint-plugin": "^5.28.0",
+		"@typescript-eslint/parser": "^5.28.0",
+		"jest": "^28.1.1",
+		"prettier": "^2.7.1",
+		"ts-jest": "^28.0.5",
+		"typescript": "^4.7.3",
+		"wrangler": "2.0.14"
+	},
+	"private": true,
+	"scripts": {
+		"build": "tsc -b",
+		"test": "jest",
+		"typecheck": "tsc --noEmit"
+	}
+}
