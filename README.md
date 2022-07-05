@@ -1,6 +1,6 @@
 <img src="./assets/logo.png" width="500px">
 
-Tiny-Session is a zero-dependency, easy to use library for managing sessions in Cloudflare Workers. Just when you need to log-in and users and check current user in your request handlers. Works well with [itty-router](https://github.com/kwhitley/itty-router).
+Tiny-Session is a zero-dependency, easy to use library for managing sessions in Cloudflare Workers. When you need to log-in users and check current user in your request handlers. Works well with [itty-router](https://github.com/kwhitley/itty-router).
 
 ## Beta
 
